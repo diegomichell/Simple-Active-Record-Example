@@ -15,7 +15,7 @@ public class PeopleAround {
 	public PeopleAround() throws ClassNotFoundException
 	{
 		Class.forName("com.mysql.jdbc.Driver");
-    	Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost:3306/Webber_DB?zeroDateTimeBehavior=convertToNull","root","852456diego852456");
+    	Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost:3306/Webber_DB?zeroDateTimeBehavior=convertToNull","root","TuhRealClave");
        
 	}
 
