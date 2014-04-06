@@ -1,5 +1,4 @@
-package activejdbc.examples.simple;
-
+package activejdbc.examples.simple; 
 import org.javalite.activejdbc.Base;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +9,7 @@ public class SimpleExample {
 
        System.getProperties().list(System.out);
 
-        Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost/test", "root", "p@ssw0rd");
+        Base.open("com.mysql.jdbc.Driver", "jdbc:mysql://localhost:3306/Webber_DB?zeroDateTimeBehavior=convertToNull","root","852456diego852456");
 
         createEmployee();
         logger.info("=========> Created employee:");
